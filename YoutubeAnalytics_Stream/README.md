@@ -65,10 +65,3 @@ Also, KSqlDB was used for stream processing and the processed data is then sent 
 3. You should have another component (not included here but in the video) that reads from this Kafka topic and performs real-time analytics using ksqlDB.
 4. The analytics results are then sent to Telegram for real-time notifications.
 
-## Contributing
-
-Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
-
-## Video
-
-[![YoutubeAnalytics](https://img.youtube.com/vi/0aqSjJ3-4NI/0.jpg)](https://youtu.be/0aqSjJ3-4NI)
