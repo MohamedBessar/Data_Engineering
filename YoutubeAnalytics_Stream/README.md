@@ -62,6 +62,6 @@ Also, KSqlDB was used for stream processing and the processed data is then sent 
 
 1. Fetches data from YouTube API using the given playlist ID.
 2. Sends this data to Kafka.
-3. You should have another component (not included here but in the video) that reads from this Kafka topic and performs real-time analytics using ksqlDB.
+3. You should have another component (not included here) that reads from this Kafka topic and performs real-time analytics using ksqlDB.
 4. The analytics results are then sent to Telegram for real-time notifications.
 
