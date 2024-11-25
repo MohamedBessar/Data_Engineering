@@ -1,0 +1,1 @@
+docker exec -it spark-iceberg /bin/sh -c "airflow scheduler -D & airflow webserver -p 8090 -D"
