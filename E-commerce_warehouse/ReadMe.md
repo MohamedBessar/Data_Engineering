@@ -1,3 +1,6 @@
+# E-Commerce Data Warehouse
+![Pipeline Diagram](DataFlow.png)
+
 ## Project Overview:
 This project sets up an E-commerce Data Warehouse to ingest, clean, and transform raw e-commerce transaction data. The pipeline orchestrates multiple tasks, including data extraction, transformation, and loading (ETL), with orchestration provided by Apache Airflow. Data is processed using PySpark and stored in a star schema format within an Apache Iceberg data warehouse.
 
