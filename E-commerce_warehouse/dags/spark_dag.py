@@ -23,7 +23,7 @@ bash_task = BashOperator(
 
 extract_transform_task = SparkSubmitOperator(
     task_id='extract_transform_data',
-    application='/home/iceberg/jobs/extract_transform.py',
+    application='/home/iceberg/jobs/transform.py',
     conn_id='spark-iceberg',
     verbose=True,
     dag=dag
